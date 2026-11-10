@@ -1,0 +1,40 @@
+# colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# ROS 2 et essais lourds
+*.db3
+*.mcap
+rosbag2_*/
+*.bin
+*.BIN
+*.tlog
+*.tlog.raw
+
+# ArduPilot SITL
+eeprom.bin
+mav.parm
+mav.tlog*
+terrain/
+logs/*.BIN
+
+# Éditeurs et système
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.pem
+id_rsa*
