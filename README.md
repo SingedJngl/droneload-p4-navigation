@@ -60,15 +60,14 @@ La procédure de simulation est dans [`sitl/README.md`](sitl/README.md).
 
 ## État
 
-| Élément | État au 11/11/2026 |
-|---|---|
-| Décollage GUIDED commandé par MAVROS en SITL | fait le 30/10 |
-| Paquet `droneload_mission` (machine à états, campagne de 10 missions nominales et 6 cas dégradés) | écrit, testé hors ROS, à ajouter au dépôt |
-| Mission complète en SITL sans GPS | à faire, objectif 29/11 |
-| Pi 5 à bord, liaison MAVLink | à faire, objectif 13/12 |
-| Stationnaire sans GPS, dérive sous 30 cm en 60 s | à faire, objectif 18/12 |
+Le dépôt est initialisé le 11/11/2026. Il contient la structure et la documentation, pas encore de code. Le drone n'a pas encore volé et aucune mission n'a été exécutée en simulation.
 
-Le drone n'a pas encore volé. Aucun résultat de ce dépôt n'est validé en vol réel.
+Reste à faire, dans l'ordre :
+
+1. Ajouter le paquet ROS 2 de mission et les paramètres SITL sans GPS.
+2. Exécuter une mission complète en SITL sans GPS.
+3. Installer le Pi 5 à bord et valider la liaison MAVLink.
+4. Tenir un stationnaire sans GPS sur le drone réel.
 
 ## Règles de contribution
 

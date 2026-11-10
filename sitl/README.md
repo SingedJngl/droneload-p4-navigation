@@ -19,7 +19,7 @@ source install/setup.bash
 # commande de lancement à compléter avec le paquet droneload_mission
 ```
 
-Le fichier `config/sitl_sans_gps.parm` arrive avec le paquet `droneload_mission`.
+Le fichier `config/sitl_sans_gps.parm` n'est pas encore dans le dépôt.
 
 ## Pièges connus
 
