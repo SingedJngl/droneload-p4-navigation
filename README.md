@@ -60,7 +60,9 @@ La procédure de simulation est dans [`sitl/README.md`](sitl/README.md).
 
 ## État
 
-Le dépôt est initialisé le 11/11/2026. Il contient la structure et la documentation, pas encore de code. Le drone n'a pas encore volé et aucune mission n'a été exécutée en simulation.
+Le dépôt est initialisé le 11/11/2026. Le drone n'a pas encore volé.
+
+Au 13/11/2026, le terrain du règlement 2027 existe en simulation Gazebo (`sitl/gazebo/`). Un vol de validation par points connus d'avance, au GPS simulé, a été testé en SITL. Ce vol n'est pas la mission : le paquet `droneload_mission` n'est pas encore écrit et la navigation sans GPS n'a pas été simulée.
 
 Reste à faire, dans l'ordre :
 

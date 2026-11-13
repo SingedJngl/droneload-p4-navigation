@@ -27,6 +27,9 @@ mav.tlog*
 terrain/
 logs/*.BIN
 
+# Monde Gazebo généré par sitl/gazebo/generer_monde.py
+sitl/gazebo/genere/
+
 # Éditeurs et système
 .vscode/
 .idea/
