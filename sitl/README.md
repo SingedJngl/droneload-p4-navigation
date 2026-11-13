@@ -32,7 +32,7 @@ Le fichier `config/sitl_sans_gps.parm` n'est pas encore dans le dépôt.
 
 ## SITL avec Gazebo : terrain DroneLoad 2027
 
-Le monde reproduit le terrain du règlement V0.1 (`docs/V0.1_Règlement_Droneload_2027.pdf`) : Terrain de jeux, aire de départ A, zone B avec fenêtre E, obstacles F et passage sûr D, zone C avec les quatre cibles, robot PULL-E sur son rail et ArUco 0 à 9.
+Le monde reproduit le terrain du règlement DroneLoad 2027 V0.1, diffusé par Planète Sciences et non versionné dans ce dépôt : Terrain de jeux, aire de départ A, zone B avec fenêtre E, obstacles F et passage sûr D, zone C avec les quatre cibles, robot PULL-E sur son rail et ArUco 0 à 9.
 
 ### Fichiers
 

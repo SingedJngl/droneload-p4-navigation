@@ -12,7 +12,7 @@ Statuts employés, conformes aux règles de `CLAUDE.md` :
 
 ## 1. Mission à remplir
 
-Référence : **règlement DroneLoad 2027 V0.1** (08/11/2026), `docs/V0.1_Règlement_Droneload_2027.pdf` (décidé le 13/11, en attendant une version suivante). Il prime sur le sujet ECE (décidé le 10/11). Plusieurs annexes de la V0.1 sont encore « à mettre à jour » (images cibles, code du robot).
+Référence : **règlement DroneLoad 2027 V0.1** (08/11/2026), diffusé par Planète Sciences et non versionné dans ce dépôt (décidé le 13/11, en attendant une version suivante). Il prime sur le sujet ECE (décidé le 10/11). Plusieurs annexes de la V0.1 sont encore « à mettre à jour » (images cibles, code du robot).
 
 Vol **intérieur, sans GNSS**. Volière d'environ 10 × 6 m, aire de jeu d'environ 8 × 5 m, motif au sol prévu pour l'optical flow.
 

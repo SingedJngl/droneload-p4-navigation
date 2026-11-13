@@ -1,6 +1,7 @@
 # Cotes du terrain DroneLoad 2027 pour le monde Gazebo.
 #
-# Source : docs/V0.1_Règlement_Droneload_2027.pdf (V0.1).
+# Source : règlement DroneLoad 2027 V0.1, diffusé par Planète Sciences
+# (non versionné dans ce dépôt).
 # Chaque valeur porte son origine :
 #   [R]  écrite dans le règlement.
 #   [F]  lue à l'échelle sur la figure 1 du règlement. La figure est un schéma,
