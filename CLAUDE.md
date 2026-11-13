@@ -16,9 +16,14 @@ Pôle P4 de l'équipe ECE Paris au concours DroneLoad 2027 (Planète Sciences, C
 - Sans GPS, l'origine EKF doit être fixée avant tout ordre GUIDED.
 - Navigation sans GPS en SITL : `sim_vehicle.py` sans Gazebo, car avec Gazebo le télémètre simulé renvoie NaN en 4.7.2.
 
-## État au 11/11/2026
+- Avec Gazebo, le SITL vole au GPS simulé : il sert au terrain, aux caméras et à la logique de mission, pas à l'estimation de position.
 
-Structure et documentation seulement. Le paquet `droneload_mission` n'est pas encore dans le dépôt. Le drone n'a pas volé.
+## État au 13/11/2026
+
+- Le terrain du règlement V0.1 existe en simulation Gazebo (`sitl/gazebo/`, procédure et état des essais dans `sitl/README.md`). Les cotes sont dans `sitl/gazebo/terrain.yaml`, seul fichier à modifier ; le monde est généré.
+- `sitl/gazebo/vol_demo.py` est testé en SITL. C'est un vol par points connus d'avance, sans vision ni machine à états. Ce n'est pas la mission.
+- Le paquet `droneload_mission` n'est pas dans le dépôt. `config/sitl_sans_gps.parm` non plus : la navigation sans GPS n'a pas été simulée depuis ce dépôt.
+- Le drone n'a pas volé.
 
 ## Règles
 
@@ -28,3 +33,8 @@ Structure et documentation seulement. Le paquet `droneload_mission` n'est pas en
 - Tout changement de paramètre ArduPilot passe par un fichier `.parm` versionné.
 - Le dépôt est public : aucun secret, aucun identifiant Wi-Fi.
 - Rédaction en français, phrases courtes, chaque choix technique suivi de sa raison.
+- En cas de contradiction entre ce fichier, `architecture/architecture.md` et `docs/interface-vision-mission.md`, ne pas trancher seul : signaler l'écart et demander.
+
+## Architecture complète du drone
+
+@architecture/architecture.md

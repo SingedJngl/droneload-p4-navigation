@@ -1,0 +1,6 @@
+# Fins de ligne LF pour tout ce qui s'exécute sous Linux.
+# Un clone Windows avec core.autocrlf convertit en CRLF, ce qui casse bash sous WSL.
+*.sh    text eol=lf
+*.py    text eol=lf
+*.yaml  text eol=lf
+*.parm  text eol=lf
